@@ -34,6 +34,7 @@ body {
   background: #fff;
   cursor: pointer;
   text-align: left;
+  text-decoration: none;
 }
 
 .nav-btn.active {
@@ -185,5 +186,9 @@ body {
   padding: 8px;
   background: #fff;
   font-size: 12px;
+}
+
+a{
+  text-decoration: none;
 }
 
