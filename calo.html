@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness App - Calories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2 class="logo">FITNESS APP</h2>
+
+        <nav>
+            <button>HOME</button>
+            <button class="active">CALORIEËN</button>
+            <button>WORKOUTS</button>
+        </nav>
+
+        <div class="user-profile">
+            Gebruiker Naam
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <h1>CALORIES</h1>
+
+        <!-- Top Cards -->
+        <div class="top-section">
+
+            <!-- Total Burned -->
+            <div class="card total">
+                <p class="small-title">TOTAAL VERBRAND</p>
+                <div class="circle">
+                    <h2>420</h2>
+                    <span>calorieën</span>
+                </div>
+                <p>84% van je doel</p>
+                <p>Nog 80 calorieën</p>
+            </div>
+
+            <!-- Daily Goal -->
+            <div class="card goal">
+                <p class="small-title">DAGELIJKS DOEL</p>
+                <h2>500</h2>
+                <p>calorieën per dag</p>
+
+                <button>WIJZIG DOEL</button>
+
+                <div class="input-area">
+                    <input type="text" placeholder="Nieuw doel instellen...">
+                    <button>OPSLAAN</button>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="card stats">
+                <p class="small-title">STATISTIEKEN</p>
+                <div class="stat-box">
+                    Vandaag <br><strong>420 cal</strong>
+                </div>
+                <div class="stat-box">
+                    Deze Week <br><strong>2,450 cal</strong>
+                </div>
+                <div class="stat-box">
+                    Deze Maand <br><strong>9,800 cal</strong>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Weekly Progress -->
+        <div class="card progress">
+            <p class="small-title">VOORTGANG DEZE WEEK</p>
+            <div class="bars">
+                <div class="bar"><span>MA</span></div>
+                <div class="bar"><span>DI</span></div>
+                <div class="bar"><span>WO</span></div>
+                <div class="bar"><span>DO</span></div>
+                <div class="bar"><span>VR</span></div>
+                <div class="bar"><span>ZA</span></div>
+                <div class="bar"><span>ZO</span></div>
+            </div>
+        </div>
+
+        <!-- Graph -->
+        <div class="card graph">
+            <p class="small-title">TREND GRAFIEK</p>
+            <div class="graph-box">
+                LINE CHART / GRAPH
+            </div>
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>
